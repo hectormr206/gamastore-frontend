@@ -10,12 +10,12 @@ export const DEFAULT_PATH = '/dashboard/analytics';
 
 const config = {
   fontFamily: `'Public Sans', sans-serif`,
-  i18n: 'en',
+  mode: 'dark',
+  i18n: 'es',
+  themeDirection: 'ltr',
   miniDrawer: false,
   container: true,
-  mode: 'light',
-  presetColor: 'default',
-  themeDirection: 'ltr'
+  presetColor: 'theme7'
 };
 
 export default config;
