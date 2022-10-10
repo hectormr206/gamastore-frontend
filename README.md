@@ -2,7 +2,7 @@
 
 Sistema para gestionar ventas por retail.
 
-🟢 **Live Frontend:** https://gamastore-one.vercel.app
+🟢 **Live Frontend:** https://gamastore-frontend.vercel.app/
 
 🟢 **Live Backend:** https://gamastore.herokuapp.com/
 🟢 **Live Backend Doc:** https://gamastore.herokuapp.com/docs
@@ -23,6 +23,10 @@ Sistema para gestionar ventas por retail.
 > Notas: este proyecto corre en: **localhost:3001**
 
 ## 🚀 Producción
+
+- Una vez instaladas las dependencias, puede realizar la compilación: `npm run build`
+
+## 🚀 Producción - Live
 
 - Una vez instaladas las dependencias, puede realizar la compilación: `npm run start`
 
