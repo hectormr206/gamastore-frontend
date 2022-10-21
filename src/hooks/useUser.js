@@ -4,13 +4,10 @@ import { useSession } from 'next-auth/react';
 const useUser = () => {
   const { data: session } = useSession();
   if (session) {
+    console.log('session', session);
+
     const user = session?.user;
-    const provider = session?.provider;
     let thumb = user?.image;
-    if (provider === 'cognito') {
-      const email = user?.email?.split('@');
-      user.name = email ? email[0] : 'Jone Doe';
-    }
 
     if (!user?.image) {
       user.image = '/assets/images/users/avatar-1.png';

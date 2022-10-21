@@ -1,0 +1,6 @@
+module.exports = {
+  config: 'src/pages/api/_backend/db/config.js',
+  'models-path': 'src/pages/api/_backend/db/models/',
+  'migrations-path': 'src/pages/api/_backend/db/migrations/',
+  'seeders-path': 'src/pages/api/_backend/db/seeders/'
+};
